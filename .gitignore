@@ -1,0 +1,50 @@
+# Secrets — never commit
+.env
+.env.local
+
+# Python tooling
+__pycache__/
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+dist/
+build/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.idea/
+.vscode/
+*.swp
+*~
+
+# Translation inputs / outputs (user documents are private; outputs are derivative)
+*.pdf
+*.docx
+*.meta.yaml
+*.meta.json
+# Per-language translation outputs at the repo root
+*.en.txt
+*.pl.txt
+*.pt-br.txt
+*.fr.txt
+*.de.txt
+*.ru.txt
+*.uk.txt
+*.el.txt
+sample*.txt
+demo*.txt
+mid-*.txt
+clean-sample*.txt
+
+# Claude Code / session metadata
+.claude/
+
+# Local logs
+*.log
